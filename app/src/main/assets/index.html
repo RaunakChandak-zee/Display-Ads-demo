@@ -2,7 +2,7 @@
   <head>
     <title>IMA HTML5 Simple Demo</title>
     
-<!--    <link rel="stylesheet" type="text/css" href="style.css">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script type='text/javascript'>
        googletag = window.googletag || {cmd:[]};
        (function() {
@@ -23,11 +23,11 @@
        googletag.cmd.push(function() {
          // Supply YOUR_NETWORK and YOUR_UNIT_PATH.
          googletag.defineSlot(
-       '/21665149170/Zee5_Staging_Test_App_Android_NativePerformance_Tvshow_BTF_3', [320, 50], 'companionDiv')
-             .addService(googletag.companionAds())
+       '/21665149170/Zee5_Staging_AndroidTV_Display_Banner', [728, 90], 'companionDiv')
+<!--             .addService(googletag.companionAds())-->
              .addService(googletag.pubads());
-         googletag.companionAds().setRefreshUnfilledSlots(true);
-         googletag.pubads().enableVideoAds();
+<!--         googletag.companionAds().setRefreshUnfilledSlots(true);-->
+<!--         googletag.pubads().enableVideoAds();-->
          googletag.enableServices();
        });
      </script>
@@ -36,14 +36,14 @@
   <body>
       <!-- BODY part -->
         <!--  Commenting the video ad tag -->
-        <!--    <div id="mainContainer">-->
-        <!--      <div id="content">-->
-        <!--        <video id="contentElement">-->
-        <!--          <source src="https://storage.googleapis.com/gvabox/media/samples/stock.mp4"></source>-->
-        <!--        </video>-->
-        <!--      </div>-->
-        <!--      <div id="adContainer"></div>-->
-        <!--    </div>-->
+<!--            <div id="mainContainer">-->
+<!--              <div id="content">-->
+<!--                <video id="contentElement">-->
+<!--                  <source src="https://storage.googleapis.com/gvabox/media/samples/stock.mp4"></source>-->
+<!--                </video>-->
+<!--              </div>-->
+<!--              <div id="adContainer"></div>-->
+<!--            </div>-->
      <!-- Declare a div where you want the companion to appear. Use
           googletag.display() to make sure the ad is displayed. -->
      <div id="companionDiv" style="width:728px; height:90px;">
